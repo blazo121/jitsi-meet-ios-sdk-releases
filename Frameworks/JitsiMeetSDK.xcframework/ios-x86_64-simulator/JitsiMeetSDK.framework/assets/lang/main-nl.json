@@ -35,9 +35,9 @@
     "audioDevices": {
         "bluetooth": "Bluetooth",
         "headphones": "Hoofdtelefoon",
+        "none": "Geen audioapparaten beschikbaar",
         "phone": "Telefoon",
-        "speaker": "Speaker",
-        "none": "Geen audioapparaten beschikbaar"
+        "speaker": "Speaker"
     },
     "audioOnly": {
         "audioOnly": "Lage bandbreedte"
@@ -63,24 +63,62 @@
     "chat": {
         "error": "Fout: uw bericht \"{{originalText}}\" is niet verzonden. Reden: {{error}}",
         "fieldPlaceHolder": "Typ hier uw bericht",
-        "messagebox": "Typ een bericht",
         "messageTo": "Privébericht aan {{recipient}}",
-        "noMessagesMessage": "Er zijn nog geen berichten in de vergadering. Begin hier een gesprek!",
+        "messagebox": "Typ een bericht",
         "nickname": {
             "popover": "Kies een bijnaam",
             "title": "Voer een bijnaam in om chat te gebruiken"
         },
+        "noMessagesMessage": "Er zijn nog geen berichten in de vergadering. Begin hier een gesprek!",
         "privateNotice": "Privébericht aan {{recipient}}",
         "title": "Chat",
         "you": "u"
     },
     "chromeExtensionBanner": {
-        "installExtensionText": "Installeer de extensie voor Google Calendar en Office 365 integratie",
         "buttonText": "Installeer Chrome Extensie",
-        "dontShowAgain": "Laat me dit niet meer zien"
+        "dontShowAgain": "Laat me dit niet meer zien",
+        "installExtensionText": "Installeer de extensie voor Google Calendar en Office 365 integratie"
     },
     "connectingOverlay": {
         "joiningRoom": "U wordt verbonden met uw vergadering..."
+    },
+    "connectionindicator": {
+        "address": "Adres:",
+        "audioSsrc": "Audio SSRC:",
+        "bandwidth": "Geschatte bandbreedte:",
+        "bitrate": "Bitrate:",
+        "bridgeCount": "Aantal servers: ",
+        "codecs": "Codecs (A/V): ",
+        "connectedTo": "Verbonden met:",
+        "e2e_rtt": "E2E RTT:",
+        "framerate": "Framesnelheid:",
+        "less": "Minder weergeven",
+        "localaddress": "Lokaal adres:",
+        "localaddressPlural": "Lokale adressen:",
+        "localport": "Lokale poort:",
+        "localportPlural": "Lokale poorten:",
+        "maxEnabledResolution": "verstuur max",
+        "more": "Meer weergeven",
+        "packetloss": "Pakketverlies:",
+        "participantId": "Participant id:",
+        "quality": {
+            "good": "Goed",
+            "inactive": "Inactief",
+            "lost": "Verbroken",
+            "nonoptimal": "Niet optimaal",
+            "poor": "Slecht"
+        },
+        "remoteaddress": "Extern adres:",
+        "remoteaddressPlural": "Externe adressen:",
+        "remoteport": "Externe poort:",
+        "remoteportPlural": "Externe poorten:",
+        "resolution": "Resolutie:",
+        "savelogs": "Save logs",
+        "status": "Verbinding:",
+        "transport": "Transport:",
+        "transportPlural": "Transporten:",
+        "turn": " (turn)",
+        "videoSsrc": "Video SSRC:"
     },
     "connection": {
         "ATTACHED": "Bijgevoegd",
@@ -95,39 +133,8 @@
         "FETCH_SESSION_ID": "Sessie-id ophalen...",
         "GET_SESSION_ID_ERROR": "Fout bij ophalen sessie-id: {{code}}",
         "GOT_SESSION_ID": "Sessie-id ophalen... Klaar",
-        "LOW_BANDWIDTH": "Video voor {{displayName}} is uitgeschakeld om bandbreedte te besparen"
-    },
-    "connectionindicator": {
-        "address": "Adres:",
-        "bandwidth": "Geschatte bandbreedte:",
-        "bitrate": "Bitrate:",
-        "bridgeCount": "Aantal servers: ",
-        "connectedTo": "Verbonden met:",
-        "e2e_rtt": "E2E RTT:",
-        "framerate": "Framesnelheid:",
-        "less": "Minder weergeven",
-        "localaddress": "Lokaal adres:",
-        "localaddress_plural": "Lokale adressen:",
-        "localport": "Lokale poort:",
-        "localport_plural": "Lokale poorten:",
-        "maxEnabledResolution": "verstuur max",
-        "more": "Meer weergeven",
-        "packetloss": "Pakketverlies:",
-        "quality": {
-            "good": "Goed",
-            "inactive": "Inactief",
-            "lost": "Verbroken",
-            "nonoptimal": "Niet optimaal",
-            "poor": "Slecht"
-        },
-        "remoteaddress": "Extern adres:",
-        "remoteaddress_plural": "Externe adressen:",
-        "remoteport": "Externe poort:",
-        "remoteport_plural": "Externe poorten:",
-        "resolution": "Resolutie:",
-        "status": "Verbinding:",
-        "transport": "Transport:",
-        "transport_plural": "Transporten:"
+        "LOW_BANDWIDTH": "Video voor {{displayName}} is uitgeschakeld om bandbreedte te besparen",
+        "RECONNECTING": "A network problem occurred. Reconnecting..."
     },
     "dateUtils": {
         "earlier": "Eerder",
@@ -160,7 +167,21 @@
         "selectADevice": "Selecteer een apparaat",
         "testAudio": "Een testgeluid afspelen"
     },
+    "dialOut": {
+        "statusMessage": "is nu {{status}}"
+    },
     "dialog": {
+        "Back": "Terug",
+        "Cancel": "Annuleren",
+        "IamHost": "Ik ben de host",
+        "Ok": "OK",
+        "Remove": "Verwijderen",
+        "Share": "Delen",
+        "Submit": "Verzenden",
+        "WaitForHostMsg": "De vergadering <b>{{room}}</b> is nog niet gestart. Authenticeer uzelf als u de host bent. Anders wacht u tot de host aanwezig is.",
+        "WaitForHostMsgWOk": "De vergadering <b>{{room}}</b> is nog niet gestart. Als u de host bent, drukt u op 'OK' om uzelf te authenticeren. Anders wacht u tot de host aanwezig is.",
+        "WaitingForHost": "Wachten op de host...",
+        "Yes": "Ja",
         "accessibilityLabel": {
             "liveStreaming": "Livestream"
         },
@@ -169,7 +190,6 @@
         "alreadySharedVideoMsg": "Er wordt al een video gedeeld door een andere deelnemer. Deze vergadering staat slechts één gedeelde video tegelijkertijd toe.",
         "alreadySharedVideoTitle": "Slechts één gedeelde video tegelijkertijd is toegestaan",
         "applicationWindow": "Toepassingsvenster",
-        "Back": "Terug",
         "cameraConstraintFailedError": "Uw camera voldoet niet aan alle vereiste beperkingen.",
         "cameraNotFoundError": "Camera niet gevonden.",
         "cameraNotSendingData": "Er is geen toegang tot uw camera verkregen. Controleer of dit apparaat wordt gebruikt door een andere toepassing, selecteer een ander apparaat vanuit de instellingen of probeer de toepassing te herladen.",
@@ -177,7 +197,6 @@
         "cameraPermissionDeniedError": "U hebt geen toestemming verleend om uw camera te gebruiken. U kunt wel deelnemen aan de vergadering, maar anderen kunnen u niet zien. Gebruik de cameraknop in de adresbalk om dit op te lossen.",
         "cameraUnknownError": "Kan de camera om een onbekende reden niet gebruiken.",
         "cameraUnsupportedResolutionError": "Uw camera ondersteunt de vereiste videoresolutie niet.",
-        "Cancel": "Annuleren",
         "close": "Sluiten",
         "conferenceDisconnectMsg": "Controleer uw netwerkverbinding. Over {{seconds}} sec. wordt opnieuw geprobeerd verbinding te maken...",
         "conferenceDisconnectTitle": "Uw verbinding is verbroken.",
@@ -190,6 +209,7 @@
         "connectErrorWithMsg": "Oeps! Er is iets misgegaan en er kon geen verbinding met de vergadering worden gemaakt: {{msg}}",
         "connecting": "Verbinding maken",
         "contactSupport": "Contact opnemen met ondersteuning",
+        "copied": "Copied",
         "copy": "Kopiëren",
         "dismiss": "Negeren",
         "displayNameRequired": "Hallo! Wat is uw naam?",
@@ -197,17 +217,21 @@
         "e2eeDescription": "Eind-tot-Eind-Versleuteling is momenteel EXPERIMENTEEL. Houd er rekening mee dat inschakelen van eind-tot-eind-versleuteling de door de server geleverde services zal uitschakelen zoals: opnemen, livestreamen en deelname via telefoon. Houd er ook rekening mee dat de vergadering alleen zal werken voor personen die deelnemen vanaf browsers met ondersteuning voor insertable streams.",
         "e2eeLabel": "Sleutel",
         "e2eeNoKey": "Geen",
-        "e2eeToggleSet": "Sleutel instellen",
         "e2eeSet": "Instellen",
+        "e2eeToggleSet": "Sleutel instellen",
         "e2eeWarning": "WAARSCHUWING: Niet alle deelnemers in deze vergadering lijken ondersteuning te hebben voor eind-tot-eind-versleuteling. Als u het inschakelt zullen zij u niet kunnen zien of horen.",
         "enterDisplayName": "Voer hier uw naam in",
         "error": "Fout",
+        "externalInstallationMsg": "You need to install our desktop sharing extension.",
+        "externalInstallationTitle": "Extension required",
+        "goToStore": "Go to the webstore",
         "gracefulShutdown": "Onze service is momenteel niet beschikbaar vanwege onderhoud. Probeer het later opnieuw.",
         "grantModeratorDialog": "Weet u zeker dat u de moderatorrechten wilt verlenen aan deze deelnemer?",
         "grantModeratorTitle": "Moderatorrechten verlenen",
-        "IamHost": "Ik ben de host",
-        "incorrectRoomLockPassword": "Onjuist wachtwoord",
         "incorrectPassword": "Onjuiste gebruikersnaam of wachtwoord",
+        "incorrectRoomLockPassword": "Onjuist wachtwoord",
+        "inlineInstallExtension": "Install now",
+        "inlineInstallationMsg": "You need to install our desktop sharing extension.",
         "internalError": "Oeps! Er is iets misgegaan. De volgende fout trad op: {{error}}",
         "internalErrorTitle": "Interne fout",
         "kickMessage": "U kunt contact opnemen met {{participantDisplayName}} voor meer informatie.",
@@ -232,17 +256,16 @@
         "micNotSendingDataTitle": "Uw microfoon is gedempt door uw systeeminstellingen",
         "micPermissionDeniedError": "U hebt geen toestemming verleend om uw microfoon te gebruiken. U kunt wel deelnemen aan de vergadering, maar anderen kunnen u niet horen. Gebruik de cameraknop in de adresbalk om dit op te lossen.",
         "micUnknownError": "Kan de microfoon om een onbekende reden niet gebruiken.",
+        "muteEveryoneDialog": "Weet u zeker dat u iedereen wilt dempen? U kunt het dempen niet opheffen, maar zij kunnen dit wel ieder moment zelf doen.",
         "muteEveryoneElseDialog": "Eenmaal gedempt kunt u het dempen niet opheffen, maar zij kunnen dit wel ieder moment zelf doen.",
         "muteEveryoneElseTitle": "Iedereen dempen behalve {{whom}}?",
-        "muteEveryoneDialog": "Weet u zeker dat u iedereen wilt dempen? U kunt het dempen niet opheffen, maar zij kunnen dit wel ieder moment zelf doen.",
-        "muteEveryoneTitle": "Iedereen dempen?",
         "muteEveryoneSelf": "uzelf",
         "muteEveryoneStartMuted": "Iedereen start vanaf nu gedempt",
+        "muteEveryoneTitle": "Iedereen dempen?",
         "muteParticipantBody": "U kunt het dempen niet opheffen, maar zij kunnen dit wel ieder moment zelf doen.",
         "muteParticipantButton": "Dempen",
         "muteParticipantDialog": "Weet u zeker dat u deze deelnemer wilt dempen? U kunt het dempen niet opheffen, maar deze deelnemer kan dit wel ieder moment zelf doen.",
         "muteParticipantTitle": "Deze deelnemer dempen?",
-        "Ok": "OK",
         "passwordLabel": "De vergadering is vergrendeld door een deelnemer. Voer het $t(lockRoomPassword) in om deel te nemen.",
         "passwordNotSupported": "Instellen van een $t(lockRoomPassword) voor de vergadering wordt niet ondersteund.",
         "passwordNotSupportedTitle": "$t(lockRoomPasswordUppercase) niet ondersteund",
@@ -262,7 +285,6 @@
         "remoteControlShareScreenWarning": "Let op: als u op 'Toestaan' drukt, wordt uw scherm gedeeld!",
         "remoteControlStopMessage": "De sessie van extern beheer is geëindigd!",
         "remoteControlTitle": "Extern beheer van bureaublad",
-        "Remove": "Verwijderen",
         "removePassword": "$t(lockRoomPasswordUppercase) verwijderen",
         "removeSharedVideoMsg": "Weet u zeker dat u uw gedeelde video wilt verwijderen?",
         "removeSharedVideoTitle": "Gedeelde video verwijderen",
@@ -272,6 +294,10 @@
         "screenSharingAudio": "Deel audio",
         "screenSharingFailed": "Oeps! Er is iets misgegaan, de schermdeling kon niet worden gestart!",
         "screenSharingFailedTitle": "Schermdeling mislukt!",
+        "screenSharingFailedToInstall": "Oops! Your screen sharing extension failed to install.",
+        "screenSharingFailedToInstallTitle": "Screen sharing extension failed to install",
+        "screenSharingFirefoxPermissionDeniedError": "Something went wrong while we were trying to share your screen. Please make sure that you have given us permission to do so. ",
+        "screenSharingFirefoxPermissionDeniedTitle": "Oops! We weren’t able to start screen sharing!",
         "screenSharingPermissionDeniedError": "Oeps! Er is iets misgegaan met uw toegangsrechten voor schermdeling. Herlaad en probeer opnieuw.",
         "sendPrivateMessage": "U hebt recentelijk een privébericht ontvangen. Bent u van plan daar privé op te reageren, of wilt u uw bericht naar de groep sturen?",
         "sendPrivateMessageCancel": "Stuur naar de groep",
@@ -279,7 +305,6 @@
         "sendPrivateMessageTitle": "Privé versturen?",
         "serviceUnavailable": "Service niet beschikbaar",
         "sessTerminated": "Gesprek beëindigd",
-        "Share": "Delen",
         "shareVideoLinkError": "Geef een juiste YouTube-link op",
         "shareVideoTitle": "Een video delen",
         "shareYourScreen": "Uw scherm delen",
@@ -293,28 +318,24 @@
         "stopRecordingWarning": "Weet u zeker dat u de opname wilt stoppen?",
         "stopStreamingWarning": "Weet u zeker dat u de livestream wilt stoppen?",
         "streamKey": "Sleutel voor livestream",
-        "Submit": "Verzenden",
         "thankYou": "Bedankt voor het gebruik van {{appName}}.",
         "token": "token",
         "tokenAuthFailed": "Sorry, u bent niet toegestaan om deel te nemen aan dit gesprek.",
         "tokenAuthFailedTitle": "Authenticering mislukt",
         "transcribing": "Transcriberen",
         "unlockRoom": "$t(lockRoomPasswordUppercase) voor vergadering verwijderen",
+        "user": "user",
         "userPassword": "gebruikerswachtwoord",
-        "WaitForHostMsg": "De vergadering <b>{{room}}</b> is nog niet gestart. Authenticeer uzelf als u de host bent. Anders wacht u tot de host aanwezig is.",
-        "WaitForHostMsgWOk": "De vergadering <b>{{room}}</b> is nog niet gestart. Als u de host bent, drukt u op 'OK' om uzelf te authenticeren. Anders wacht u tot de host aanwezig is.",
-        "WaitingForHost": "Wachten op de host...",
-        "Yes": "Ja",
         "yourEntireScreen": "Uw gehele scherm"
-    },
-    "dialOut": {
-        "statusMessage": "is nu {{status}}"
     },
     "documentSharing": {
         "title": "Gedeeld Document"
     },
     "e2ee": {
         "labelToolTip": "Audio- en Videocommunicatie in dit gesprek is eind-tot-eind-versleuteld"
+    },
+    "embedMeeting": {
+        "title": "Embed this meeting"
     },
     "feedback": {
         "average": "Gemiddeld",
@@ -324,6 +345,36 @@
         "rateExperience": "Beoordeel uw vergaderervaring",
         "veryBad": "Zeer Slecht",
         "veryGood": "Zeer Goed"
+    },
+    "helpView": {
+        "header": "Helpcentrum"
+    },
+    "icwCustom_videothumbnail_sharingScreen": "Member is sharing screen",
+    "icwCustom": {
+        "addPeople": {
+            "copyLink": "Copy link"
+        },
+        "chat": {
+            "noMessagesMessage": "There are no messages in the meeting yet.\nStart a conversation typing to input down.",
+            "noMessagesTitle": "No Messages",
+            "privateContent": "Content of this message is hidden.",
+            "privateName": "Private message"
+        },
+        "share": {
+            "dialInfoText": "\n\n=====\n\nJust want to dial in on your phone?\n\n{{defaultDialInNumber}}Click this link to see the dial in phone numbers for this meeting\n{{dialInfoPageUrl}}",
+            "mainText": "1. Please join my online meeting.\n\n{{roomUrl}}\n\nGoogle Chrome is recommended for the best experience.\n\n2. Use your microphone and speakers (VoIP) - a headset is recommended."
+        },
+        "toolbar": {
+            "cam": "Cam",
+            "end": "End",
+            "hand": "Raise Hand",
+            "invite": "Invite",
+            "more": "More",
+            "mute": "Mute",
+            "screen": "Share Screen",
+            "tile": "Grid View",
+            "unmute": "Unmute"
+        }
     },
     "incomingCall": {
         "answer": "Beantwoorden",
@@ -351,6 +402,7 @@
         "inviteURLFirstPartGeneral": "U bent uitgenodigd om aan een vergadering deel te nemen.",
         "inviteURLFirstPartPersonal": "{{name}} nodigt u uit voor een vergadering.\n",
         "inviteURLSecondPart": "\nDeelnemen aan de vergadering:\n{{url}}\n",
+        "label": "Vergaderingsgegevens",
         "liveStreamURL": "Livestream:",
         "moreNumbers": "Meer nummers",
         "noNumbers": "Geen inbelnummers.",
@@ -359,8 +411,13 @@
         "numbers": "Inbelnummers",
         "password": "$t(lockRoomPasswordUppercase):",
         "title": "Delen",
-        "tooltip": "De link en inbelgegevens voor deze vergadering delen",
-        "label": "Vergaderingsgegevens"
+        "tooltip": "De link en inbelgegevens voor deze vergadering delen"
+    },
+    "inlineDialogFailure": {
+        "msg": "Er is een fout opgetreden.",
+        "retry": "Opnieuw proberen",
+        "support": "Ondersteuning",
+        "supportMsg": "Als dit blijft gebeuren, neemt u contact op met"
     },
     "inviteDialog": {
         "alertText": "Niet alle deelnemers zijn uitgenodigd.",
@@ -369,12 +426,6 @@
         "searchPeopleOnlyPlaceholder": "Zoek deelnemers",
         "searchPlaceholder": "Deelnemer of telefoonnummer",
         "send": "Verzenden"
-    },
-    "inlineDialogFailure": {
-        "msg": "Er is een fout opgetreden.",
-        "retry": "Opnieuw proberen",
-        "support": "Ondersteuning",
-        "supportMsg": "Als dit blijft gebeuren, neemt u contact op met"
     },
     "keyboardShortcuts": {
         "focusLocal": "Focus op uw video",
@@ -394,8 +445,6 @@
         "videoQuality": "Kwaliteit van gesprek beheren"
     },
     "liveStreaming": {
-        "limitNotificationDescriptionWeb": "Vanwege een grote vraag zal uw stream beperkt worden tot {{limit}} min. Voor ongelimiteerd streamen, probeer <a href={{url}} rel='noopener noreferrer' target='_blank'>{{app}}</a>.",
-        "limitNotificationDescriptionNative": "Uw stream zal beperkt worden tot {{limit}} min. Voor ongelimiteerd streamen, probeer {{app}}.",
         "busy": "Er wordt gewerkt aan het vrijmaken van streamingmiddelen. Probeer het over enkele minuten opnieuw.",
         "busyTitle": "Alle streamers zijn momenteel bezet",
         "changeSignIn": "Wissel van account.",
@@ -410,22 +459,57 @@
         "expandedPending": "De livestream wordt gestart...",
         "failedToStart": "Livestream starten mislukt",
         "getStreamKeyManually": "Er konden geen livestreams opgehaald worden. Probeer uw livestream-sleutel van YouTube te krijgen.",
+        "googlePrivacyPolicy": "Privacybeleid Google",
         "invalidStreamKey": "Livestream-sleutel is mogelijk onjuist.",
+        "limitNotificationDescriptionNative": "Uw stream zal beperkt worden tot {{limit}} min. Voor ongelimiteerd streamen, probeer {{app}}.",
+        "limitNotificationDescriptionWeb": "Vanwege een grote vraag zal uw stream beperkt worden tot {{limit}} min. Voor ongelimiteerd streamen, probeer <a href={{url}} rel='noopener noreferrer' target='_blank'>{{app}}</a>.",
         "off": "Livestream gestopt",
         "offBy": "{{name}} heeft de livestream gestopt.",
         "on": "Livestream",
         "onBy": "{{name}} heeft de livestream gestart.",
         "pending": "Livestream starten...",
         "serviceName": "Livestreamservice",
-        "signedInAs": "U bent momenteel aangemeld als:",
         "signIn": "Aanmelden met Google",
         "signInCTA": "Meld u aan of voer uw livestream-sleutel van YouTube in.",
         "signOut": "Afmelden",
+        "signedInAs": "U bent momenteel aangemeld als:",
         "start": "Een livestream starten",
         "streamIdHelp": "Wat is dit?",
         "unavailableTitle": "Livestreamen niet beschikbaar",
-        "youtubeTerms": "Servicevoorwaarden YouTube",
-        "googlePrivacyPolicy": "Privacybeleid Google"
+        "youtubeTerms": "Servicevoorwaarden YouTube"
+    },
+    "lobby": {
+        "allow": "Toestaan",
+        "backToKnockModeButton": "Geen wachtwoord, vraag om deel te mogen nemen",
+        "dialogTitle": "Lobby-modus",
+        "disableDialogContent": "Lobby-modus is momenteel ingeschakeld. Deze functie zorgt ervoor dat ongewenste deelnemers niet aan uw vergadering kunnen deelnemen. Wilt u het uitschakelen?",
+        "disableDialogSubmit": "Uitschakelen",
+        "emailField": "Voer uw e-mailadres in",
+        "enableDialogPasswordField": "Stel wachtwoord in (optioneel)",
+        "enableDialogSubmit": "Inschakelen",
+        "enableDialogText": "Met de lobby-modus kunt u uw vergadering beveiligen, door deelnemers alleen toe te laten na een formele goedkeuring van een moderator.",
+        "enterPasswordButton": "Voer wachtwoord voor vergadering in",
+        "enterPasswordTitle": "Voer wachtwoord in om deel te nemen aan vergadering",
+        "invalidPassword": "Ongeldig wachtwoord",
+        "joinRejectedMessage": "Uw verzoek tot deelname is afgewezen door een moderator.",
+        "joinTitle": "Deelnemen aan vergadering",
+        "joinWithPasswordMessage": "Poging tot deelname met wachtwoord, even geduld a.u.b...",
+        "joiningMessage": "U neemt deel aan de vergadering zodra iemand uw verzoek accepteert",
+        "joiningTitle": "Vragen om deel te nemen aan vergadering...",
+        "joiningWithPasswordTitle": "Deelnemen met wachtwoord...",
+        "knockButton": "Vragen om deel te nemen",
+        "knockTitle": "Iemand wil deelnemen aan de vergadering",
+        "knockingParticipantList": "Lijst van aankloppende deelnemers",
+        "nameField": "Voer uw naam in",
+        "notificationLobbyAccessDenied": "{{targetParticipantName}} is afgewezen om deel te nemen door {{originParticipantName}}",
+        "notificationLobbyAccessGranted": "{{targetParticipantName}} is toegestaan om deel te nemen door {{originParticipantName}}",
+        "notificationLobbyDisabled": "Lobby is uitgeschakeld door {{originParticipantName}}",
+        "notificationLobbyEnabled": "Lobby is ingeschakeld door {{originParticipantName}}",
+        "notificationTitle": "Lobby",
+        "passwordField": "Voer wachtwoord voor vergadering in",
+        "passwordJoinButton": "Deelnemen",
+        "reject": "Afwijzen",
+        "toggleLabel": "Lobby inschakelen"
     },
     "localRecording": {
         "clientState": {
@@ -458,8 +542,13 @@
     },
     "lockRoomPassword": "wachtwoord",
     "lockRoomPasswordUppercase": "Wachtwoord",
+    "lonelyMeetingExperience": {
+        "button": "Anderen uitnodigen",
+        "youAreAlone": "U bent de enige in de vergadering"
+    },
     "me": "ik",
     "notify": {
+        "OldElectronAPPTitle": "Beveiligingskwetsbaarheid!",
         "connectedOneMember": "{{name}} neemt nu deel aan de vergadering",
         "connectedThreePlusMembers": "{{name}} en {{count}} anderen nemen nu deel aan de vergadering",
         "connectedTwoMembers": "{{first}} en {{second}} nemen nu deel aan de vergadering",
@@ -474,37 +563,58 @@
         "me": "Ik",
         "moderator": "Moderatorrechten verleend!",
         "muted": "U hebt het gesprek gedempt gestart.",
-        "mutedTitle": "U bent gedempt!",
-        "mutedRemotelyTitle": "U bent gedempt door {{participantDisplayName}}!",
         "mutedRemotelyDescription": "U kunt het dempen altijd opheffen wanneer u klaar bent om te spreken. Demp opnieuw wanneer u klaar bent, om ruis buiten de vergadering te houden.",
+        "mutedRemotelyTitle": "U bent gedempt door {{participantDisplayName}}!",
+        "mutedTitle": "U bent gedempt!",
+        "newDeviceAction": "Gebruik",
+        "newDeviceAudioTitle": "Nieuw audioapparaat gedetecteerd",
+        "newDeviceCameraTitle": "Nieuwe camera gedetecteerd",
+        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van Jitsi Meet gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
+        "oldElectronClientDescription2": "nieuwste versie",
+        "oldElectronClientDescription3": "!",
         "passwordRemovedRemotely": "$t(lockRoomPasswordUppercase) verwijderd door een andere deelnemer",
         "passwordSetRemotely": "$t(lockRoomPasswordUppercase) ingesteld door een ander deelnemer",
         "raisedHand": "{{name}} zou graag willen spreken.",
         "somebody": "Iemand",
-        "startSilentTitle": "U neemt deel zonder audio-output!",
         "startSilentDescription": "Neem opnieuw aan de vergadering deel om audio in te schakelen",
+        "startSilentTitle": "U neemt deel zonder audio-output!",
         "suboptimalBrowserWarning": "Helaas zal uw vergaderervaring hier waarschijnlijk niet zo goed zijn. Er wordt geprobeerd dit in de toekomst te verbeteren, maar tot die tijd kunt u proberen een van de <a href='{{recommendedBrowserPageLink}}' target='_blank'>volledig ondersteunde browsers</a> te gebruiken.",
+        "suboptimalExperienceDescription": "Eer... we are afraid your experience with {{appName}} isn't going to be that great here. We are looking for ways to improve this but, until then, please try using one of the <a href='{{recommendedBrowserPageLink}}' target='_blank'>fully supported browsers</a>.",
         "suboptimalExperienceTitle": "Browserwaarschuwing",
-        "unmute": "Dempen opheffen",
-        "newDeviceCameraTitle": "Nieuwe camera gedetecteerd",
-        "newDeviceAudioTitle": "Nieuw audioapparaat gedetecteerd",
-        "newDeviceAction": "Gebruik",
-        "OldElectronAPPTitle": "Beveiligingskwetsbaarheid!",
-        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van Jitsi Meet gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
-        "oldElectronClientDescription2": "nieuwste versie",
-        "oldElectronClientDescription3": "!"
+        "unmute": "Dempen opheffen"
     },
-    "passwordSetRemotely": "ingesteld door een andere deelnemer",
     "passwordDigitsOnly": "Maximaal {{number}} cijfers",
+    "passwordSetRemotely": "ingesteld door een andere deelnemer",
     "poweredby": "mogelijk gemaakt door",
     "prejoin": {
         "audioAndVideoError": "Audio- en videofout:",
+        "audioDeviceProblem": "There is a problem with your audio device",
         "audioOnlyError": "Audiofout:",
         "audioTrackError": "Kon audiotrack niet aanmaken.",
         "callMe": "Bel me",
         "callMeAtNumber": "Bel me op dit nummer:",
+        "calling": "Bellen",
         "configuringDevices": "Apparaten instellen...",
         "connectedWithAudioQ": "Bent u verbonden met audio?",
+        "connectionDetails": {
+            "audioClipping": "We expect your audio to be clipped.",
+            "audioHighQuality": "We expect your audio to have excellent quality.",
+            "audioLowNoVideo": "We expect your audio quality to be low and no video.",
+            "goodQuality": "Awesome! Your media quality is going to be great.",
+            "noMediaConnectivity": "We could not find a way to establish media connectivity for this test. This is typically caused by a firewall or NAT.",
+            "noVideo": "We expect that your video will be terrible.",
+            "undetectable": "If you still can not make calls in browser, we recommend that you make sure your speakers, microphone and camera are properly set up, that you have granted your browser rights to use your microphone and camera, and that your browser version is up-to-date. If you still have trouble calling, you should contact the web application developer.",
+            "veryPoorConnection": "We expect your call quality to be really terrible.",
+            "videoFreezing": "We expect your video to freeze, turn black, and be pixelated.",
+            "videoHighQuality": "We expect your video to have good quality.",
+            "videoLowQuality": "We expect your video to have low quality in terms of frame rate and resolution.",
+            "videoTearing": "We expect your video to be pixelated or have visual artefacts."
+        },
+        "connection": {
+            "good": "Your internet connection looks good!",
+            "nonOptimal": "Your internet connection is not optimal",
+            "poor": "You have a poor internet connection"
+        },
         "copyAndShare": "Kopieer & deel link naar vergadering",
         "dialInMeeting": "Inbellen naar de vergadering",
         "dialInPin": "Inbellen naar de vergadering en pincode invoeren:",
@@ -514,19 +624,21 @@
         "errorDialOutDisconnected": "Kon niet bellen. Verbinding verbroken",
         "errorDialOutFailed": "Kon niet bellen. Oproep is mislukt",
         "errorDialOutStatus": "Fout bij ophalen belstatus",
+        "errorMissingName": "Please enter your name to join the meeting",
         "errorStatusCode": "Fout bij bellen, statuscode: {{status}}",
         "errorValidation": "Nummervalidatie mislukt",
         "iWantToDialIn": "Ik wil inbellen",
+        "initiated": "Gesprek gestart",
         "joinAudioByPhone": "Deelnemen met telefoonaudio",
         "joinMeeting": "Deelnemen aan de vergadering",
         "joinWithoutAudio": "Deelnemen zonder audio",
-        "initiated": "Gesprek gestart",
         "linkCopied": "Link gekopieerd naar klembord",
         "lookGood": "Het klinkt alsof uw microfoon naar behoren werkt",
         "or": "of",
-        "calling": "Bellen",
-        "startWithPhone": "Starten met telefoonaudio",
+        "premeeting": "Pre meeting",
         "screenSharingError": "Fout bij schermdeling:",
+        "showScreen": "Enable pre meeting screen",
+        "startWithPhone": "Starten met telefoonaudio",
         "videoOnlyError": "Videofout:",
         "videoTrackError": "Kon videotrack niet aanmaken.",
         "viewAllNumbers": "bekijk alle nummers"
@@ -553,8 +665,6 @@
     },
     "raisedHand": "Zou graag willen spreken",
     "recording": {
-        "limitNotificationDescriptionWeb": "Vanwege een grote vraag wordt uw opname beperkt tot {{limit}} min. Voor ongelimiteerde opnamen, probeer <a href={{url}} rel='noopener noreferrer' target='_blank'>{{app}}</a>.",
-        "limitNotificationDescriptionNative": "Vanwege een grote vraag wordt uw opname beperkt tot {{limit}} min. Voor ongelimiteerde opnamen, probeer <3>{{app}}</3>.",
         "authDropboxText": "Uploaden naar Dropbox",
         "availableSpace": "Beschikbare ruimte: {{spaceLeft}} MB (circa {{duration}} minuten aan opname)",
         "beta": "BÈTA",
@@ -566,6 +676,8 @@
         "expandedPending": "Opname wordt gestart...",
         "failedToStart": "Opname starten mislukt",
         "fileSharingdescription": "Opname delen met deelnemers aan vergadering",
+        "limitNotificationDescriptionNative": "Vanwege een grote vraag wordt uw opname beperkt tot {{limit}} min. Voor ongelimiteerde opnamen, probeer <3>{{app}}</3>.",
+        "limitNotificationDescriptionWeb": "Vanwege een grote vraag wordt uw opname beperkt tot {{limit}} min. Voor ongelimiteerde opnamen, probeer <a href={{url}} rel='noopener noreferrer' target='_blank'>{{app}}</a>.",
         "live": "LIVE",
         "loggedIn": "Aangemeld als {{userName}}",
         "off": "Opname gestopt",
@@ -575,6 +687,7 @@
         "pending": "Voorbereiden op opnemen van de vergadering...",
         "rec": "OPN",
         "serviceDescription": "Uw opname wordt opgeslagen door de opnameservice",
+        "serviceDescriptionCloud": "Cloud recording",
         "serviceName": "Opnameservice",
         "signIn": "Aanmelden",
         "signOut": "Afmelden",
@@ -589,6 +702,28 @@
         "aboutReadOnly": "Moderators kunnen een $t(lockRoomPassword) toevoegen aan de vergadering. Deelnemers moeten het $t(lockRoomPassword) opgeven voordat zij aan de vergadering mogen deelnemen.",
         "insecureRoomNameWarning": "De naam van de ruimte is onveilig. Ongewenste deelnemers kunnen deelnemen aan uw vergadering. Overweeg uw vergadering te beveiligen via de beveiligingsknop.",
         "securityOptions": "Beveiligingsopties"
+    },
+    "settingsView": {
+        "advanced": "Geavanceerd",
+        "alertCancel": "Annuleren",
+        "alertOk": "OK",
+        "alertTitle": "Waarschuwing",
+        "alertURLText": "De ingevoerde server-URL is ongeldig",
+        "buildInfoSection": "Versiegegevens",
+        "conferenceSection": "Vergadering",
+        "disableCallIntegration": "Schakel inbellen via telefoon uit",
+        "disableCrashReporting": "Schakel crashrapportage uit",
+        "disableCrashReportingWarning": "Weet u zeker dat u crashrapportage wilt uitschakelen? De instelling wordt toegepast nadat u de app opnieuw hebt opgestart.",
+        "disableP2P": "Schakel Peer-to-Peer-modus uit",
+        "displayName": "Weergavenaam",
+        "email": "E‑mail",
+        "header": "Instellingen",
+        "profileSection": "Profiel",
+        "serverURL": "Server-URL",
+        "showAdvanced": "Geavanceerde instellingen weergeven",
+        "startWithAudioMuted": "Met audio gedempt starten",
+        "startWithVideoMuted": "Met video gedempt starten",
+        "version": "Versie"
     },
     "settings": {
         "calendar": {
@@ -615,28 +750,6 @@
         "startVideoMuted": "Iedereen start verborgen",
         "title": "Instellingen"
     },
-    "settingsView": {
-        "advanced": "Geavanceerd",
-        "alertOk": "OK",
-        "alertCancel": "Annuleren",
-        "alertTitle": "Waarschuwing",
-        "alertURLText": "De ingevoerde server-URL is ongeldig",
-        "buildInfoSection": "Versiegegevens",
-        "conferenceSection": "Vergadering",
-        "disableCallIntegration": "Schakel inbellen via telefoon uit",
-        "disableP2P": "Schakel Peer-to-Peer-modus uit",
-        "disableCrashReporting": "Schakel crashrapportage uit",
-        "disableCrashReportingWarning": "Weet u zeker dat u crashrapportage wilt uitschakelen? De instelling wordt toegepast nadat u de app opnieuw hebt opgestart.",
-        "displayName": "Weergavenaam",
-        "email": "E‑mail",
-        "header": "Instellingen",
-        "profileSection": "Profiel",
-        "serverURL": "Server-URL",
-        "showAdvanced": "Geavanceerde instellingen weergeven",
-        "startWithAudioMuted": "Met audio gedempt starten",
-        "startWithVideoMuted": "Met video gedempt starten",
-        "version": "Versie"
-    },
     "share": {
         "dialInfoText": "\n\n=====\n\nWilt u inbellen via uw telefoon?\n\n{{defaultDialInNumber}}Klik op deze link om de inbelnummers voor deze vergadering te zien\n{{dialInfoPageUrl}}",
         "mainText": "Klik op de volgende link om deel te nemen aan de vergadering:\n{{roomUrl}}"
@@ -651,7 +764,7 @@
         "speakerTime": "Sprekertijd"
     },
     "startupoverlay": {
-        "policyText": " ",
+        "genericTitle": "The meeting needs to use your microphone and camera.",
         "title": "{{app}} heeft toegang tot uw microfoon en camera nodig."
     },
     "suspendedoverlay": {
@@ -660,7 +773,9 @@
         "title": "Uw videogesprek is onderbroken omdat deze computer op de slaapstand overging."
     },
     "toolbar": {
+        "Settings": "Instellingen",
         "accessibilityLabel": {
+            "Settings": "Instellingen in- of uitschakelen",
             "audioOnly": "Alleen audio in- of uitschakelen",
             "audioRoute": "Het afspeelapparaat selecteren",
             "callQuality": "Videokwaliteit beheren",
@@ -669,6 +784,7 @@
             "document": "Gedeeld document in- of uitschakelen",
             "download": "Download onze apps",
             "e2ee": "Eind-tot-eind-versleuteling",
+            "embedMeeting": "Embed meeting",
             "feedback": "Feedback achterlaten",
             "fullScreen": "Volledig scherm in- of uitschakelen",
             "grantModerator": "Moderatorrechten verlenen",
@@ -691,18 +807,17 @@
             "recording": "Opnemen in- of uitschakelen",
             "remoteMute": "Deelnemer dempen",
             "security": "Beveiligingsopties",
-            "Settings": "Instellingen in- of uitschakelen",
-            "sharedvideo": "YouTube-video delen in- of uitschakelen",
             "shareRoom": "Iemand uitnodigen",
             "shareYourScreen": "Schermdeling in- of uitschakelen",
+            "sharedvideo": "YouTube-video delen in- of uitschakelen",
             "shortcuts": "Sneltoetsen in- of uitschakelen",
             "show": "Op podium weergeven",
             "speakerStats": "Sprekerstatistieken in- of uitschakelen",
             "tileView": "Tegelweergave in- of uitschakelen",
             "toggleCamera": "Camera wisselen",
             "toggleFilmstrip": "Filmstrip in- of uitschakelen",
-            "videomute": "Video dempen in- of uitschakelen",
-            "videoblur": "Video vervagen in- of uitschakelen"
+            "videoblur": "Video vervagen in- of uitschakelen",
+            "videomute": "Video dempen in- of uitschakelen"
         },
         "addPeople": "Personen aan uw gesprek toevoegen",
         "audioOnlyOff": "Lage bandbreedte-modus uitschakelen",
@@ -716,6 +831,7 @@
         "documentOpen": "Gedeeld document openen",
         "download": "Download onze apps",
         "e2ee": "Eind-tot-eind-versleuteling",
+        "embedMeeting": "Embed meeting",
         "enterFullScreen": "Volledig scherm weergeven",
         "enterTileView": "Tegelweergave openen",
         "exitFullScreen": "Volledig scherm sluiten",
@@ -733,13 +849,13 @@
         "moreOptions": "Meer opties",
         "mute": "Dempen / Dempen opheffen",
         "muteEveryone": "Iedereen dempen",
-        "noAudioSignalTitle": "Er komt geen invoer van uw microfoon!",
         "noAudioSignalDesc": "Als u niet met opzet hebt gedempt vanuit systeeminstellingen of hardware, overweeg dan van apparaat te wisselen.",
         "noAudioSignalDescSuggestion": "Als u niet met opzet hebt gedempt vanuit systeeminstellingen of hardware, overweeg dan over te schakelen naar het gesuggereerde apparaat.",
         "noAudioSignalDialInDesc": "U kunt ook inbellen met:",
         "noAudioSignalDialInLinkDesc": "Inbelnummers",
-        "noisyAudioInputTitle": "Uw microfoon lijkt ruis te veroorzaken!",
+        "noAudioSignalTitle": "Er komt geen invoer van uw microfoon!",
         "noisyAudioInputDesc": "Het klinkt alsof uw microfoon ruis veroorzaakt. Overweeg te dempen of van apparaat te wisselen.",
+        "noisyAudioInputTitle": "Uw microfoon lijkt ruis te veroorzaken!",
         "openChat": "Chat openen",
         "pip": "Picture-in-Picture-modus activeren",
         "privateMessage": "Verstuur privébericht",
@@ -747,22 +863,21 @@
         "raiseHand": "Uw hand opsteken / laten zakken",
         "raiseYourHand": "Uw hand opsteken",
         "security": "Beveiligingsoptions",
-        "Settings": "Instellingen",
-        "sharedvideo": "Een YouTube-video delen",
         "shareRoom": "Iemand uitnodigen",
+        "sharedvideo": "Een YouTube-video delen",
         "shortcuts": "Sneltoetsen weergeven",
         "speakerStats": "Sprekerstatistieken",
         "startScreenSharing": "Schermdeling starten",
         "startSubtitles": "Ondertiteling starten",
+        "startvideoblur": "Vervaag mijn achtergrond",
         "stopScreenSharing": "Schermdeling stoppen",
-        "stopSubtitles": "Ondertiteling stoppen",
         "stopSharedVideo": "YouTube-video stoppen",
+        "stopSubtitles": "Ondertiteling stoppen",
+        "stopvideoblur": "Achtergrond vervagen uitschakelen",
         "talkWhileMutedPopup": "Probeert u te spreken? U bent gedempt.",
         "tileViewToggle": "Tegelweergave in- of uitschakelen",
         "toggleCamera": "Camera in- of uitschakelen",
-        "videomute": "Camera starten / stoppen",
-        "startvideoblur": "Vervaag mijn achtergrond",
-        "stopvideoblur": "Achtergrond vervagen uitschakelen"
+        "videomute": "Camera starten / stoppen"
     },
     "transcribing": {
         "ccButtonTooltip": "Ondertiteling starten / stoppen",
@@ -817,6 +932,7 @@
         "standardDefinition": "Standaard resolutie"
     },
     "videothumbnail": {
+        "connectionInfo": "Connection Info",
         "domute": "Dempen",
         "domuteOthers": "Alle anderen dempen",
         "flip": "Omdraaien",
@@ -846,7 +962,10 @@
         "getHelp": "Hulp krijgen",
         "go": "GAAN",
         "goSmall": "GAAN",
+        "headerSubtitle": "Secure and high quality meetings",
+        "headerTitle": "Jitsi Meet",
         "info": "Informatie",
+        "jitsiOnMobile": "Jitsi on mobile – download our apps and start a meeting from anywhere",
         "join": "AANMAKEN / DEELNEMEN",
         "moderatedMessage": "Of <a href=\"{{url}}\" rel=\"noopener noreferrer\" target=\"_blank\">boek een vergadering URL</a> van tevoren waar u de enige moderator bent.",
         "privacy": "Privacy",
@@ -858,47 +977,8 @@
         "roomname": "Voer naam van ruimte in",
         "roomnameHint": "Voer de naam of URL in van de ruimte die u wilt betreden. U kunt een naam verzinnen, maar laat deze wel weten aan de andere deelnemers, zodat zij dezelfde naam invoeren.",
         "sendFeedback": "Feedback versturen",
+        "startMeeting": "Start meeting",
         "terms": "Voorwaarden",
         "title": "Veilige, volledig uitgeruste en geheel gratis videovergaderingen"
-    },
-    "lonelyMeetingExperience": {
-        "button": "Anderen uitnodigen",
-        "youAreAlone": "U bent de enige in de vergadering"
-    },
-    "helpView": {
-        "header": "Helpcentrum"
-    },
-    "lobby": {
-        "knockingParticipantList" : "Lijst van aankloppende deelnemers",
-        "allow": "Toestaan",
-        "backToKnockModeButton": "Geen wachtwoord, vraag om deel te mogen nemen",
-        "dialogTitle": "Lobby-modus",
-        "disableDialogContent": "Lobby-modus is momenteel ingeschakeld. Deze functie zorgt ervoor dat ongewenste deelnemers niet aan uw vergadering kunnen deelnemen. Wilt u het uitschakelen?",
-        "disableDialogSubmit": "Uitschakelen",
-        "emailField": "Voer uw e-mailadres in",
-        "enableDialogPasswordField": "Stel wachtwoord in (optioneel)",
-        "enableDialogSubmit": "Inschakelen",
-        "enableDialogText": "Met de lobby-modus kunt u uw vergadering beveiligen, door deelnemers alleen toe te laten na een formele goedkeuring van een moderator.",
-        "enterPasswordButton": "Voer wachtwoord voor vergadering in",
-        "enterPasswordTitle": "Voer wachtwoord in om deel te nemen aan vergadering",
-        "invalidPassword": "Ongeldig wachtwoord",
-        "joiningMessage": "U neemt deel aan de vergadering zodra iemand uw verzoek accepteert",
-        "joinWithPasswordMessage": "Poging tot deelname met wachtwoord, even geduld a.u.b...",
-        "joinRejectedMessage": "Uw verzoek tot deelname is afgewezen door een moderator.",
-        "joinTitle": "Deelnemen aan vergadering",
-        "joiningTitle": "Vragen om deel te nemen aan vergadering...",
-        "joiningWithPasswordTitle": "Deelnemen met wachtwoord...",
-        "knockButton": "Vragen om deel te nemen",
-        "knockTitle": "Iemand wil deelnemen aan de vergadering",
-        "nameField": "Voer uw naam in",
-        "notificationLobbyAccessDenied": "{{targetParticipantName}} is afgewezen om deel te nemen door {{originParticipantName}}",
-        "notificationLobbyAccessGranted": "{{targetParticipantName}} is toegestaan om deel te nemen door {{originParticipantName}}",
-        "notificationLobbyDisabled": "Lobby is uitgeschakeld door {{originParticipantName}}",
-        "notificationLobbyEnabled": "Lobby is ingeschakeld door {{originParticipantName}}",
-        "notificationTitle": "Lobby",
-        "passwordField": "Voer wachtwoord voor vergadering in",
-        "passwordJoinButton": "Deelnemen",
-        "reject": "Afwijzen",
-        "toggleLabel": "Lobby inschakelen"
     }
 }

@@ -29,6 +29,9 @@ public class PiPViewCoordinator {
     public func hash(into hasher: inout Swift.Hasher)
   }
   public var initialPositionInSuperview: JitsiMeetSDK.PiPViewCoordinator.Position
+  public var currentPictureInPicturePosition: JitsiMeetSDK.PiPViewCoordinator.Position? {
+    get
+  }
   @available(*, deprecated, message: "The PiP window size is now fixed to 150px.")
   public var c: CoreGraphics.CGFloat
   weak public var delegate: JitsiMeetSDK.PiPViewCoordinatorDelegate?

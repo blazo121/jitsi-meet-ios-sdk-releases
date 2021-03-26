@@ -82,6 +82,59 @@
     "connectingOverlay": {
         "joiningRoom": "Пытаемся присоединиться к вашей конференции..."
     },
+    "connectionindicator": {
+        "address": "Адрес:",
+        "audioSsrc": "Audio SSRC:",
+        "bandwidth": "Средняя скорость:",
+        "bitrate": "Битрейт:",
+        "bridgeCount": "Количество серверов: ",
+        "codecs": "Codecs (A/V): ",
+        "connectedTo": "Подключен к:",
+        "e2e_rtt": "E2E RTT:",
+        "framerate": "Частота кадров:",
+        "less": "Краткая информация",
+        "localaddress": "Local address:",
+        "localaddressPlural": "Local addresses:",
+        "localaddress_0": "Локальный адрес:",
+        "localaddress_1": "Локальных адреса:",
+        "localaddress_2": "Локальных адресов:",
+        "localport": "Local port:",
+        "localportPlural": "Local ports:",
+        "localport_0": "Локальный порт:",
+        "localport_1": "Локальных порта:",
+        "localport_2": "Локальных портов:",
+        "maxEnabledResolution": "send max",
+        "more": "Подробная информация",
+        "packetloss": "Потери пакетов:",
+        "participantId": "Participant id:",
+        "quality": {
+            "good": "Хорошо",
+            "inactive": "не активно",
+            "lost": "потеряно",
+            "nonoptimal": "не оптимально",
+            "poor": "плохо"
+        },
+        "remoteaddress": "Remote address:",
+        "remoteaddressPlural": "Remote addresses:",
+        "remoteaddress_0": "Удаленный адрес:",
+        "remoteaddress_1": "Удаленных адреса:",
+        "remoteaddress_2": "Удаленных адресов:",
+        "remoteport": "Remote port:",
+        "remoteportPlural": "Remote ports:",
+        "remoteport_0": "Удаленный порт:",
+        "remoteport_1": "Удаленных порта:",
+        "remoteport_2": "Удаленных портов:",
+        "resolution": "Разрешение:",
+        "savelogs": "Save logs",
+        "status": "Связь:",
+        "transport": "Transport:",
+        "transportPlural": "Transports:",
+        "transport_0": "Метод отправки:",
+        "transport_1": "Метода отправки:",
+        "transport_2": "Методов отправки:",
+        "turn": " (turn)",
+        "videoSsrc": "Video SSRC:"
+    },
     "connection": {
         "ATTACHED": "Прикреплено",
         "AUTHENTICATING": "Аутентификация",
@@ -98,41 +151,6 @@
         "LOW_BANDWIDTH": "Видео для {{displayName}} приостановлено из-за низкой пропускной способности",
         "RECONNECTING": "Проблема с сетью. Переподключение..."
     },
-    "connectionindicator": {
-        "address": "Адрес:",
-        "bandwidth": "Средняя скорость:",
-        "bitrate": "Битрейт:",
-        "bridgeCount": "Количество серверов: ",
-        "connectedTo": "Подключен к:",
-        "framerate": "Частота кадров:",
-        "less": "Краткая информация",
-        "localaddress_0": "Локальный адрес:",
-        "localaddress_1": "Локальных адреса:",
-        "localaddress_2": "Локальных адресов:",
-        "localport_0": "Локальный порт:",
-        "localport_1": "Локальных порта:",
-        "localport_2": "Локальных портов:",
-        "more": "Подробная информация",
-        "packetloss": "Потери пакетов:",
-        "quality": {
-            "good": "Хорошо",
-            "inactive": "не активно",
-            "lost": "потеряно",
-            "nonoptimal": "не оптимально",
-            "poor": "плохо"
-        },
-        "remoteaddress_0": "Удаленный адрес:",
-        "remoteaddress_1": "Удаленных адреса:",
-        "remoteaddress_2": "Удаленных адресов:",
-        "remoteport_0": "Удаленный порт:",
-        "remoteport_1": "Удаленных порта:",
-        "remoteport_2": "Удаленных портов:",
-        "resolution": "Разрешение:",
-        "status": "Связь:",
-        "transport_0": "Метод отправки:",
-        "transport_1": "Метода отправки:",
-        "transport_2": "Методов отправки:"
-    },
     "dateUtils": {
         "earlier": "Ранее",
         "today": "Сегодня",
@@ -143,16 +161,13 @@
         "description": "Ничего не случилось? Мы попытались запустить вашу встречу в настольном приложении {{app}}. Повторите попытку или запустите ее в веб-приложении {{app}}.",
         "descriptionWithoutWeb": "Ничего не произошло? Мы попытались запустить вашу конференцию в настольном приложении {{app}}",
         "downloadApp": "Скачать приложение",
-        "ifDoNotHaveApp": "Если у вас еще нет приложения:",
-        "ifHaveApp": "Если вы уже установили приложение:",
-        "joinInApp": "Подключиться к этой встрече используя приложение",
+        "ifDoNotHaveApp": "Если у Вас ещё нет приложения:",
+        "ifHaveApp": "Если у Вас уже есть приложение:",
+        "joinInApp": "Присоединиться к этой встрече с помощью приложения",
         "launchWebButton": "Запустить в браузере",
         "openApp": "Перейти к приложению",
         "title": "Запуск вашей встречи в {{app}}...",
-        "tryAgainButton": "Повторите в настольном приложении",
-        "joinInApp": "Присоединиться к этой встрече с помощью приложения",
-        "ifHaveApp": "Если у Вас уже есть приложение:",
-        "ifDoNotHaveApp": "Если у Вас ещё нет приложения:"
+        "tryAgainButton": "Повторите в настольном приложении"
     },
     "defaultLink": "напр. {{url}}",
     "defaultNickname": "напр. Яна Цветкова",
@@ -325,6 +340,7 @@
         "tokenAuthFailedTitle": "Ошибка аутентификации",
         "transcribing": "Расшифровка",
         "unlockRoom": "Убрать $t(lockRoomPassword)",
+        "user": "user",
         "userPassword": "пароль пользователя",
         "yourEntireScreen": "Весь экран"
     },
@@ -348,6 +364,33 @@
     },
     "helpView": {
         "header": "Справка"
+    },
+    "icwCustom_videothumbnail_sharingScreen": "Member is sharing screen",
+    "icwCustom": {
+        "addPeople": {
+            "copyLink": "Copy link"
+        },
+        "chat": {
+            "noMessagesMessage": "There are no messages in the meeting yet.\nStart a conversation typing to input down.",
+            "noMessagesTitle": "No Messages",
+            "privateContent": "Content of this message is hidden.",
+            "privateName": "Private message"
+        },
+        "share": {
+            "dialInfoText": "\n\n=====\n\nJust want to dial in on your phone?\n\n{{defaultDialInNumber}}Click this link to see the dial in phone numbers for this meeting\n{{dialInfoPageUrl}}",
+            "mainText": "1. Please join my online meeting.\n\n{{roomUrl}}\n\nGoogle Chrome is recommended for the best experience.\n\n2. Use your microphone and speakers (VoIP) - a headset is recommended."
+        },
+        "toolbar": {
+            "cam": "Cam",
+            "end": "End",
+            "hand": "Raise Hand",
+            "invite": "Invite",
+            "more": "More",
+            "mute": "Mute",
+            "screen": "Share Screen",
+            "tile": "Grid View",
+            "unmute": "Unmute"
+        }
     },
     "incomingCall": {
         "answer": "Ответ",
@@ -452,6 +495,9 @@
         "youtubeTerms": "Условия использования YouTube"
     },
     "lobby": {
+        "allow": "Allow",
+        "backToKnockModeButton": "No password, ask to join instead",
+        "dialogTitle": "Lobby mode",
         "disableDialogContent": "В настоящее время включен режим лобби. Эта функция гарантирует, что нежелательные участники не смогут присоединиться к вашей встрече. Вы хотите его отключить?",
         "disableDialogSubmit": "Отключить",
         "emailField": "Введите ваш адрес электронной почты",
@@ -551,6 +597,7 @@
         "startSilentDescription": "Перезайдите в конференцию, чтобы включить звук",
         "startSilentTitle": "У вас отсутствует звук!",
         "suboptimalBrowserWarning": "К сожалению, ваш браузер не полностью поддерживает данную систему вэбконференций. Мы работаем над проблемой, однако, пока рекомендуем вам воспользоваться <a href='{{recommendedBrowserPageLink}}' target='_blank'> следующими браузерами</a>.",
+        "suboptimalExperienceDescription": "Eer... we are afraid your experience with {{appName}} isn't going to be that great here. We are looking for ways to improve this but, until then, please try using one of the <a href='{{recommendedBrowserPageLink}}' target='_blank'>fully supported browsers</a>.",
         "suboptimalExperienceTitle": "Предупреждение браузера",
         "unmute": "Включить микрофон"
     },
@@ -559,6 +606,7 @@
     "poweredby": "работает на",
     "prejoin": {
         "audioAndVideoError": "Ошибка звука и видео:",
+        "audioDeviceProblem": "There is a problem with your audio device",
         "audioOnlyError": "Ошибка звука:",
         "audioTrackError": "Не удалось создать аудио дорожку.",
         "callMe": "Позвоните мне",
@@ -566,6 +614,25 @@
         "calling": "Вызываем",
         "configuringDevices": "Настраиваются устройства...",
         "connectedWithAudioQ": "Вы подключили звук?",
+        "connectionDetails": {
+            "audioClipping": "We expect your audio to be clipped.",
+            "audioHighQuality": "We expect your audio to have excellent quality.",
+            "audioLowNoVideo": "We expect your audio quality to be low and no video.",
+            "goodQuality": "Awesome! Your media quality is going to be great.",
+            "noMediaConnectivity": "We could not find a way to establish media connectivity for this test. This is typically caused by a firewall or NAT.",
+            "noVideo": "We expect that your video will be terrible.",
+            "undetectable": "If you still can not make calls in browser, we recommend that you make sure your speakers, microphone and camera are properly set up, that you have granted your browser rights to use your microphone and camera, and that your browser version is up-to-date. If you still have trouble calling, you should contact the web application developer.",
+            "veryPoorConnection": "We expect your call quality to be really terrible.",
+            "videoFreezing": "We expect your video to freeze, turn black, and be pixelated.",
+            "videoHighQuality": "We expect your video to have good quality.",
+            "videoLowQuality": "We expect your video to have low quality in terms of frame rate and resolution.",
+            "videoTearing": "We expect your video to be pixelated or have visual artefacts."
+        },
+        "connection": {
+            "good": "Your internet connection looks good!",
+            "nonOptimal": "Your internet connection is not optimal",
+            "poor": "You have a poor internet connection"
+        },
         "copyAndShare": "Скопировать и поделиться ссылкой на встречу",
         "dialInMeeting": "Дозвониться до встречи",
         "dialInPin": "Дозвониться до встречи и ввести ПИН код:",
@@ -575,6 +642,7 @@
         "errorDialOutDisconnected": "Не удалось дозвониться. Отключено",
         "errorDialOutFailed": "Не удалось дозвониться. Сбой вызова",
         "errorDialOutStatus": "Ошибка получения статуса вызова",
+        "errorMissingName": "Please enter your name to join the meeting",
         "errorStatusCode": "Ошибка вызова, код статуса: {{status}}",
         "errorValidation": "Проверка номера не удалась",
         "iWantToDialIn": "Я хочу дозвониться",
@@ -637,6 +705,7 @@
         "pending": "Подготовка записи конференции. . .",
         "rec": "ИДЕТ ЗАПИСЬ",
         "serviceDescription": "Ваша запись будет сохранена соответствующей службой",
+        "serviceDescriptionCloud": "Cloud recording",
         "serviceName": "Служба записи",
         "signIn": "Вход",
         "signOut": "Выход",
@@ -651,6 +720,28 @@
         "aboutReadOnly": "Участники-модераторы могут добавить к собранию $t(lockRoomPassword). Участникам необходимо будет предоставить $t(lockRoomPassword), прежде чем им будет разрешено присоединиться к собранию.",
         "insecureRoomNameWarning": "Имя комнаты небезопасно. Нежелательные участники могут присоединиться к вашей конференции. Подумайте о том, чтобы защитить вашу встречу используя настройки безопасности.",
         "securityOptions": "Настройки безопасности"
+    },
+    "settingsView": {
+        "advanced": "Дополнительные",
+        "alertCancel": "Cancel",
+        "alertOk": "OK",
+        "alertTitle": "Внимание",
+        "alertURLText": "Ошибка адреса сервера",
+        "buildInfoSection": "Информация о сборке",
+        "conferenceSection": "Номера для набора",
+        "disableCallIntegration": "Отключить встроенную интеграцию вызовов",
+        "disableCrashReporting": "Отключить отправку отчетов о сбоях",
+        "disableCrashReportingWarning": "Вы действительно хотите отключить отчеты о сбоях? Настройка будет применена после перезапуска приложения.",
+        "disableP2P": "Отключить режим Peer-To-Peer",
+        "displayName": "Отображаемое имя",
+        "email": "Email",
+        "header": "Настройки",
+        "profileSection": "Профиль",
+        "serverURL": "Адрес сервера",
+        "showAdvanced": "Показать дополнительные настройки",
+        "startWithAudioMuted": "Начать с отключенным звуком",
+        "startWithVideoMuted": "Начать с отключенным видео",
+        "version": "Версия"
     },
     "settings": {
         "calendar": {
@@ -677,27 +768,6 @@
         "startVideoMuted": "Все начинают в скрытом режиме",
         "title": "Настройки"
     },
-    "settingsView": {
-        "advanced": "Дополнительные",
-        "alertOk": "OK",
-        "alertTitle": "Внимание",
-        "alertURLText": "Ошибка адреса сервера",
-        "buildInfoSection": "Информация о сборке",
-        "conferenceSection": "Номера для набора",
-        "disableCallIntegration": "Отключить встроенную интеграцию вызовов",
-        "disableCrashReporting": "Отключить отправку отчетов о сбоях",
-        "disableCrashReportingWarning": "Вы действительно хотите отключить отчеты о сбоях? Настройка будет применена после перезапуска приложения.",
-        "disableP2P": "Отключить режим Peer-To-Peer",
-        "displayName": "Отображаемое имя",
-        "email": "Email",
-        "header": "Настройки",
-        "profileSection": "Профиль",
-        "serverURL": "Адрес сервера",
-        "showAdvanced": "Показать дополнительные настройки",
-        "startWithAudioMuted": "Начать с отключенным звуком",
-        "startWithVideoMuted": "Начать с отключенным видео",
-        "version": "Версия"
-    },
     "share": {
         "dialInfoText": "\n\n=====\n\nПросто хотите набрать номер на Вашем телефоне?\n\n{{defaultDialInNumber}}Щелкните на эту ссылку, чтобы просмотреть телефонные номера для этой конференции\n{{dialInfoPageUrl}}",
         "mainText": "Нажмите на ссылку чтобы присоединиться к конференции:\n{{roomUrl}}"
@@ -712,7 +782,7 @@
         "speakerTime": "Время выступлений"
     },
     "startupoverlay": {
-        "policyText": " ",
+        "genericTitle": "The meeting needs to use your microphone and camera.",
         "title": "{{app}} требуется доступ к микрофону и камере."
     },
     "suspendedoverlay": {
@@ -836,7 +906,8 @@
         "off": "Расшифровка остановлена",
         "pending": "Подготовка расшифровки конференции...",
         "start": "Вкл/Выкл показ субтитров",
-        "stop": "Вкл/Выкл показ субтитров"
+        "stop": "Вкл/Выкл показ субтитров",
+        "tr": "TR"
     },
     "userMedia": {
         "androidGrantPermissions": "Выберите <b><i>Разрешить</i></b>, когда браузер спросит о разрешениях.",
@@ -879,6 +950,7 @@
         "standardDefinition": "Стандартное качество (SD)"
     },
     "videothumbnail": {
+        "connectionInfo": "Connection Info",
         "domute": "Выключить звук",
         "domuteOthers": "Выключить остальных",
         "flip": "Отразить",
@@ -908,7 +980,10 @@
         "getHelp": "Справка",
         "go": "ОК",
         "goSmall": "ОК",
+        "headerSubtitle": "Secure and high quality meetings",
+        "headerTitle": "Jitsi Meet",
         "info": "Инфо",
+        "jitsiOnMobile": "Jitsi on mobile – download our apps and start a meeting from anywhere",
         "join": "СОЗДАТЬ / ПРИСОЕДИНИТЬСЯ",
         "moderatedMessage": "Или заранее <a href=\"{{url}}\" rel=\"noopener noreferrer\" target=\"_blank\">зарезервируйте URL-адрес встречи</a>, где вы будете единственным модератором.",
         "privacy": "Приватность",
@@ -920,6 +995,7 @@
         "roomname": "Укажите название комнаты",
         "roomnameHint": "Укажите название комнаты или ее адрес. Можете сами создать название и передать его будущим участникам встречи, чтобы они использовали именно его.",
         "sendFeedback": "Обратная связь",
+        "startMeeting": "Start meeting",
         "terms": "Условия",
         "title": "Защищенная, полнофункциональная и совершенно бесплатная система видеоконференций"
     }
