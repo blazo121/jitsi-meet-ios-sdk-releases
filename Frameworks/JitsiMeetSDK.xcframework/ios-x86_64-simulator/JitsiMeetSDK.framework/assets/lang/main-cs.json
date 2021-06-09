@@ -372,38 +372,72 @@
     "helpView": {
         "header": "Centrum pomoci"
     },
-    "icwCustom_videothumbnail_sharingScreen": "Member is sharing screen",
     "icwCustom": {
         "addPeople": {
-            "copyLink": "Copy link"
+            "copyLink": "Zkopírovat odkaz"
         },
         "chat": {
-            "noMessagesMessage": "There are no messages in the meeting yet.\nStart a conversation typing to input down.",
+            "messageCopied": "Zpráva byla zkopírována do schránky",
             "noMessagesTitle": "No Messages",
-            "privateContent": "Content of this message is hidden.",
-            "privateName": "Private message"
+            "privateContent": "Obsah této zprávy je skrytý.",
+            "privateMessageFor": "Soukromá zpráva pro",
+            "privateModeOff": "Vypnout soukromý mód",
+            "privateModeOn": "Zapnout soukromý mód",
+            "privateModeTooltip": "Pokud vypnete soukromý mód, ostatní uvidí vaše zprávy",
+            "privateName": "Soukromá zpráva",
+            "privateSharing": "Při sdílení obrazovky nejsou soukromé zprávy zobrazeny"
+        },
+        "lobby": {
+            "autoAudio": "Automaticky povolit mikrofon",
+            "autoVideo": "Automaticky povolit kameru",
+            "join": "Připojit se",
+            "nameLabel": "Vaše jméno (ostatní účastníci ho uvidí):",
+            "namePlaceholder": "Zadejte své jmnéno...",
+            "title": "Připojit se k setkání"
+        },
+        "settings": {
+            "audio": {
+                "test": "Test"
+            }
         },
         "share": {
             "dialInfoText": "\n\n=====\n\nJust want to dial in on your phone?\n\n{{defaultDialInNumber}}Click this link to see the dial in phone numbers for this meeting\n{{dialInfoPageUrl}}",
             "mainText": "1. Please join my online meeting.\n\n{{roomUrl}}\n\nGoogle Chrome is recommended for the best experience.\n\n2. Use your microphone and speakers (VoIP) - a headset is recommended."
         },
+        "thumbnail": {
+            "connectionStats": "Statistika připojení pro {{name}}"
+        },
         "toolbar": {
-            "cam": "Cam",
-            "end": "End",
-            "hand": "Raise Hand",
-            "invite": "Invite",
-            "more": "More",
-            "mute": "Mute",
-            "screen": "Share Screen",
-            "tile": "Grid View",
-            "unmute": "Unmute"
+            "cam": "Kamera",
+            "end": "Zavěsit",
+            "fullscreenEnter": "Celá obrazovka",
+            "fullscreenExit": "Ukončit celou obrazovku",
+            "hand": "Zvednout ruku",
+            "invite": "Pozvat",
+            "more": "Více",
+            "mute": "Mikrofon",
+            "muteEveryone": "Ztlumit všechny",
+            "pictureQuality": "Kvalita obrazu",
+            "screen": "Sdílet obrazovku",
+            "statsForNerds": "Statistika pro nerdy",
+            "tile": "Dlaždice",
+            "unmute": "Mikrofon"
+        },
+        "videoQuality": {
+            "audio": "Pouze zvuk",
+            "high": "Vysoká",
+            "low": "Nízká",
+            "standard": "Standardní"
+        },
+        "videothumbnail": {
+            "sharingScreen": "Účastník sdíli obrazovku"
         }
     },
     "incomingCall": {
         "answer": "Odpovědět",
         "audioCallTitle": "Příchozí hovor",
         "decline": "OK",
-        "productLabel": "od Jitsi Meet",
+        "productLabel": "od IceWarp Conferences",
         "videoCallTitle": "Příchozí videohovor"
     },
     "info": {
@@ -591,7 +625,7 @@
         "newDeviceAction": "Použít",
         "newDeviceAudioTitle": "Detekováno nové zvukové zařízení",
         "newDeviceCameraTitle": "Detekována nová kamera",
-        "oldElectronClientDescription1": "Zdá se, že používáte zastaralou verzi klienta Jitsi Meet, který má známé bezpečnostní zranitelnosti. Aktualizujte prosím na ",
+        "oldElectronClientDescription1": "Zdá se, že používáte zastaralou verzi klienta IceWarp Conferences, který má známé bezpečnostní zranitelnosti. Aktualizujte prosím na ",
         "oldElectronClientDescription2": "nejnovější sestavení",
         "oldElectronClientDescription3": " ihned!",
         "passwordRemovedRemotely": "Jiný účastník odebral $t(lockRoomPassword)",
@@ -983,7 +1017,7 @@
         "go": "ZAČÍT",
         "goSmall": "ZAČÍT",
         "headerSubtitle": "Bezpečné a kvalitní setkávání",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "IceWarp Conferences",
         "info": "Informace o vytáčení",
         "jitsiOnMobile": "Jitsi na mobilu – stáhněte si naše aplikace a spusťte hovor odkudkoliv",
         "join": "VYTVOŘIT / PŘIPOJIT",

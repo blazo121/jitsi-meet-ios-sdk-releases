@@ -346,38 +346,72 @@
     "helpView": {
         "header": "지원 센터"
     },
-    "icwCustom_videothumbnail_sharingScreen": "Member is sharing screen",
     "icwCustom": {
         "addPeople": {
             "copyLink": "Copy link"
         },
         "chat": {
-            "noMessagesMessage": "There are no messages in the meeting yet.\nStart a conversation typing to input down.",
+            "messageCopied": "Message copied to clipboard",
             "noMessagesTitle": "No Messages",
             "privateContent": "Content of this message is hidden.",
-            "privateName": "Private message"
+            "privateMessageFor": "Private message for",
+            "privateModeOff": "Disable private mode",
+            "privateModeOn": "Enable private mode",
+            "privateModeTooltip": "When you turn off private mode, others can see your messages",
+            "privateName": "Private message",
+            "privateSharing": "Private messages are not visible during screen sharing"
+        },
+        "lobby": {
+            "autoAudio": "Auto enable microphone",
+            "autoVideo": "Auto enable camera",
+            "join": "Join",
+            "nameLabel": "Your name (invited people will see it):",
+            "namePlaceholder": "Enter your name here...",
+            "title": "Join conference"
+        },
+        "settings": {
+            "audio": {
+                "test": "Test"
+            }
         },
         "share": {
             "dialInfoText": "\n\n=====\n\nJust want to dial in on your phone?\n\n{{defaultDialInNumber}}Click this link to see the dial in phone numbers for this meeting\n{{dialInfoPageUrl}}",
             "mainText": "1. Please join my online meeting.\n\n{{roomUrl}}\n\nGoogle Chrome is recommended for the best experience.\n\n2. Use your microphone and speakers (VoIP) - a headset is recommended."
         },
+        "thumbnail": {
+            "connectionStats": "Connection stats for {{name}}"
+        },
         "toolbar": {
             "cam": "Cam",
             "end": "End",
+            "fullscreenEnter": "Full screen",
+            "fullscreenExit": "Exit full screen",
             "hand": "Raise Hand",
             "invite": "Invite",
             "more": "More",
             "mute": "Mute",
+            "muteEveryone": "Mute everyone",
+            "pictureQuality": "Picture quality",
             "screen": "Share Screen",
+            "statsForNerds": "Stats for nerds",
             "tile": "Grid View",
             "unmute": "Unmute"
+        },
+        "videoQuality": {
+            "audio": "Audio only",
+            "high": "High",
+            "low": "Low",
+            "standard": "Standard"
+        },
+        "videothumbnail": {
+            "sharingScreen": "Member is sharing screen"
         }
     },
     "incomingCall": {
         "answer": "응답",
         "audioCallTitle": "수신 전화",
         "decline": "거절",
-        "productLabel": "Jitsi Meet에서",
+        "productLabel": "IceWarp Conferences에서",
         "videoCallTitle": "수신 화상 전화"
     },
     "info": {
@@ -565,7 +599,7 @@
         "newDeviceAction": "사용",
         "newDeviceAudioTitle": "새 오디오 장치 감지",
         "newDeviceCameraTitle": "새 카메라 감지",
-        "oldElectronClientDescription1": "You appear to be using an old version of the Jitsi Meet client which has known security vulnerabilities. Please make sure you update to our ",
+        "oldElectronClientDescription1": "You appear to be using an old version of the IceWarp Conferences client which has known security vulnerabilities. Please make sure you update to our ",
         "oldElectronClientDescription2": "latest build",
         "oldElectronClientDescription3": " now!",
         "passwordRemovedRemotely": "다른 참가자가 $t(lockRoomPasswordUppercase)를 제거했습니다.",
@@ -957,7 +991,7 @@
         "go": "계속",
         "goSmall": "계속",
         "headerSubtitle": "Secure and high quality meetings",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "IceWarp Conferences",
         "info": "정보",
         "jitsiOnMobile": "Jitsi on mobile – download our apps and start a meeting from anywhere",
         "join": "가입",

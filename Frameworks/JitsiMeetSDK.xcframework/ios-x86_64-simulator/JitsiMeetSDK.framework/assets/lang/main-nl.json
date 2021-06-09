@@ -349,38 +349,72 @@
     "helpView": {
         "header": "Helpcentrum"
     },
-    "icwCustom_videothumbnail_sharingScreen": "Member is sharing screen",
     "icwCustom": {
         "addPeople": {
             "copyLink": "Copy link"
         },
         "chat": {
-            "noMessagesMessage": "There are no messages in the meeting yet.\nStart a conversation typing to input down.",
+            "messageCopied": "Message copied to clipboard",
             "noMessagesTitle": "No Messages",
             "privateContent": "Content of this message is hidden.",
-            "privateName": "Private message"
+            "privateMessageFor": "Private message for",
+            "privateModeOff": "Disable private mode",
+            "privateModeOn": "Enable private mode",
+            "privateModeTooltip": "When you turn off private mode, others can see your messages",
+            "privateName": "Private message",
+            "privateSharing": "Private messages are not visible during screen sharing"
+        },
+        "lobby": {
+            "autoAudio": "Auto enable microphone",
+            "autoVideo": "Auto enable camera",
+            "join": "Join",
+            "nameLabel": "Your name (invited people will see it):",
+            "namePlaceholder": "Enter your name here...",
+            "title": "Join conference"
+        },
+        "settings": {
+            "audio": {
+                "test": "Test"
+            }
         },
         "share": {
             "dialInfoText": "\n\n=====\n\nJust want to dial in on your phone?\n\n{{defaultDialInNumber}}Click this link to see the dial in phone numbers for this meeting\n{{dialInfoPageUrl}}",
             "mainText": "1. Please join my online meeting.\n\n{{roomUrl}}\n\nGoogle Chrome is recommended for the best experience.\n\n2. Use your microphone and speakers (VoIP) - a headset is recommended."
         },
+        "thumbnail": {
+            "connectionStats": "Connection stats for {{name}}"
+        },
         "toolbar": {
             "cam": "Cam",
             "end": "End",
+            "fullscreenEnter": "Full screen",
+            "fullscreenExit": "Exit full screen",
             "hand": "Raise Hand",
             "invite": "Invite",
             "more": "More",
             "mute": "Mute",
+            "muteEveryone": "Mute everyone",
+            "pictureQuality": "Picture quality",
             "screen": "Share Screen",
+            "statsForNerds": "Stats for nerds",
             "tile": "Grid View",
             "unmute": "Unmute"
+        },
+        "videoQuality": {
+            "audio": "Audio only",
+            "high": "High",
+            "low": "Low",
+            "standard": "Standard"
+        },
+        "videothumbnail": {
+            "sharingScreen": "Member is sharing screen"
         }
     },
     "incomingCall": {
         "answer": "Beantwoorden",
         "audioCallTitle": "Inkomende oproep",
         "decline": "Negeren",
-        "productLabel": "vanuit Jitsi Meet",
+        "productLabel": "vanuit IceWarp Conferences",
         "videoCallTitle": "Inkomende video-oproep"
     },
     "info": {
@@ -569,7 +603,7 @@
         "newDeviceAction": "Gebruik",
         "newDeviceAudioTitle": "Nieuw audioapparaat gedetecteerd",
         "newDeviceCameraTitle": "Nieuwe camera gedetecteerd",
-        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van Jitsi Meet gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
+        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van IceWarp Conferences gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
         "oldElectronClientDescription2": "nieuwste versie",
         "oldElectronClientDescription3": "!",
         "passwordRemovedRemotely": "$t(lockRoomPasswordUppercase) verwijderd door een andere deelnemer",
@@ -963,7 +997,7 @@
         "go": "GAAN",
         "goSmall": "GAAN",
         "headerSubtitle": "Secure and high quality meetings",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "IceWarp Conferences",
         "info": "Informatie",
         "jitsiOnMobile": "Jitsi on mobile – download our apps and start a meeting from anywhere",
         "join": "AANMAKEN / DEELNEMEN",

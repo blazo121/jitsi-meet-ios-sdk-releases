@@ -62,6 +62,7 @@
 @property (nonatomic) BOOL audioOnly;
 @property (nonatomic) BOOL audioMuted;
 @property (nonatomic) BOOL videoMuted;
+@property (nonatomic) BOOL startRecording;
 
 /**
  * Set to YES to enable the welcome page. Typically SDK users won't need this enabled
@@ -94,6 +95,7 @@
 @property (nonatomic, readonly) BOOL audioOnly;
 @property (nonatomic, readonly) BOOL audioMuted;
 @property (nonatomic, readonly) BOOL videoMuted;
+@property (nonatomic, readonly) BOOL startRecording;
 
 @property (nonatomic, readonly) BOOL welcomePageEnabled;
 

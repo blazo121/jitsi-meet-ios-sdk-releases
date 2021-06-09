@@ -346,38 +346,72 @@
     "helpView": {
         "header": "ヘルプセンター"
     },
-    "icwCustom_videothumbnail_sharingScreen": "Member is sharing screen",
     "icwCustom": {
         "addPeople": {
             "copyLink": "Copy link"
         },
         "chat": {
-            "noMessagesMessage": "There are no messages in the meeting yet.\nStart a conversation typing to input down.",
+            "messageCopied": "Message copied to clipboard",
             "noMessagesTitle": "No Messages",
             "privateContent": "Content of this message is hidden.",
-            "privateName": "Private message"
+            "privateMessageFor": "Private message for",
+            "privateModeOff": "Disable private mode",
+            "privateModeOn": "Enable private mode",
+            "privateModeTooltip": "When you turn off private mode, others can see your messages",
+            "privateName": "Private message",
+            "privateSharing": "Private messages are not visible during screen sharing"
+        },
+        "lobby": {
+            "autoAudio": "Auto enable microphone",
+            "autoVideo": "Auto enable camera",
+            "join": "Join",
+            "nameLabel": "Your name (invited people will see it):",
+            "namePlaceholder": "Enter your name here...",
+            "title": "Join conference"
+        },
+        "settings": {
+            "audio": {
+                "test": "Test"
+            }
         },
         "share": {
             "dialInfoText": "\n\n=====\n\nJust want to dial in on your phone?\n\n{{defaultDialInNumber}}Click this link to see the dial in phone numbers for this meeting\n{{dialInfoPageUrl}}",
             "mainText": "1. Please join my online meeting.\n\n{{roomUrl}}\n\nGoogle Chrome is recommended for the best experience.\n\n2. Use your microphone and speakers (VoIP) - a headset is recommended."
         },
+        "thumbnail": {
+            "connectionStats": "Connection stats for {{name}}"
+        },
         "toolbar": {
             "cam": "Cam",
             "end": "End",
+            "fullscreenEnter": "Full screen",
+            "fullscreenExit": "Exit full screen",
             "hand": "Raise Hand",
             "invite": "Invite",
             "more": "More",
             "mute": "Mute",
+            "muteEveryone": "Mute everyone",
+            "pictureQuality": "Picture quality",
             "screen": "Share Screen",
+            "statsForNerds": "Stats for nerds",
             "tile": "Grid View",
             "unmute": "Unmute"
+        },
+        "videoQuality": {
+            "audio": "Audio only",
+            "high": "High",
+            "low": "Low",
+            "standard": "Standard"
+        },
+        "videothumbnail": {
+            "sharingScreen": "Member is sharing screen"
         }
     },
     "incomingCall": {
         "answer": "応答",
         "audioCallTitle": "音声通話着信",
         "decline": "却下",
-        "productLabel": "Jitsi Meet からの",
+        "productLabel": "IceWarp Conferences からの",
         "videoCallTitle": "ビデオ通話着信"
     },
     "info": {
@@ -566,7 +600,7 @@
         "newDeviceAction": "使用する",
         "newDeviceAudioTitle": "新しいオーディオデバイスを検出しました",
         "newDeviceCameraTitle": "新しいカメラを検出しました",
-        "oldElectronClientDescription1": "あなたは既知のセキュリティ上の脆弱性がある、旧バージョンの Jitsi Meet クライアントを使用しているようです。今すぐ",
+        "oldElectronClientDescription1": "あなたは既知のセキュリティ上の脆弱性がある、旧バージョンの IceWarp Conferences クライアントを使用しているようです。今すぐ",
         "oldElectronClientDescription2": "最新ビルド",
         "oldElectronClientDescription3": "に更新してください!",
         "passwordRemovedRemotely": "他の参加者により、$t(lockRoomPasswordUppercase) が削除されました",
@@ -959,9 +993,9 @@
         "go": "GO",
         "goSmall": "GO",
         "headerSubtitle": "Secure and high quality meetings",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "IceWarp Conferences",
         "info": "ダイアルイン情報",
-        "jitsiMeet": "Jitsi Meet",
+        "jitsiMeet": "IceWarp Conferences",
         "jitsiOnMobile": "モバイル版 Jitsi – アプリをダウンロードして、どこからでも会議を開始できます",
         "join": "作成/参加",
         "moderatedMessage": "または、前もってあなたのみがモデレーターである<a href=\"{{url}}\" rel=\"noopener noreferrer\" target=\"_blank\">ミーティングの URL をブックマークに登録</a>しましょう。",
